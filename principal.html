@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero Automatico</title>
+    <link rel="stylesheet" href="./Styles2.css">
+</head>
+<body class="bg-dark" style="background-color:rgb(236, 238, 210)!important">
+</head>
+<meta name="viewport" content="width=device-width"/>
+<body>
+
+    <div class="contenedor-padre">
+        <img src="img/banco.png" alt="">
+    
+    <h1>Qué movimiento deseas realizar</h1>
+    <br>
+
+<div class="Cuentas">
+
+    <label for="">Cuenta1  Lety
+        <br> Saldo: </label>
+    <input type="text" name="Cantidad1" id="C1" value="500">
+    <br><br>
+    <label for="">Cuenta2  Emma
+        <br> Saldo: </label>
+    <input type="text" name="Cantidad2" id="C2" value="2000">
+    <br><br>
+    <label for="">Cuenta3  Santi
+        <br> Saldo: </label>
+    <input type="text" name="Cantidad3" id="C3" value="5000">
+    <br>
+    
+</div>
+
+<div class="Movimientos">
+    
+    <form action="">
+        
+        <h2>Transferencias</h2> 
+        <input type="text" name="" id="Cant" placeholder="Cantidad">
+        <input type="button" class= "btn-primary" value="Lety a Emma" id="bt2" onclick="mate()">
+        <input type="button" class= "btn-primary" value="Lety a Santi" id="bt3" onclick="mate2()">
+        <input type="button" class= "btn-primary" value="Emma a Lety" id="bt4" onclick="mate3()">
+        <input type="button" class= "btn-primary" value="Emma a Santi" id="bt5" onclick="mate4()">
+        <input type="button" class= "btn-primary" value="Santi a Lety" id="bt6" onclick="mate5()">
+        <input type="button" class= "btn-primary" value="Santi a Emma" id="bt7" onclick="mate6()">        
+        
+        <h2>Depósitos</h2>
+        <input type="text" name="" id="Dep" placeholder="Cantidad">
+        <input type="button" class= "btn-primary" value="Lety" id="bt8" onclick="mate7()">
+        <input type="button" class= "btn-primary" value="Emma" id="bt9" onclick="mate8()">
+        <input type="button" class= "btn-primary" value="Santi" id="bt10" onclick="mate9()">
+        
+        <h2>Retiros</h2>
+        <input type="text" name="" id="Ret" placeholder="Cantidad">
+        <input type="button" class= "btn-primary" value="Lety" id="bt11" onclick="mate10()">
+        <input type="button" class= "btn-primary" value="Emma" id="bt12" onclick="mate11()">
+        <input type="button" class= "btn-primary" value="Santi" id="bt13" onclick="mate12()">
+        
+
+    </form>
+
+    </div>
+    <script src="./cajero.js">      
+        </script>
+
+
+    
+</body>
+</html>
